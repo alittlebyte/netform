@@ -1,0 +1,35 @@
+body{
+	font-family:'Comfortaa',sans-serif;
+}
+
+#netForm{
+	display:flex;
+	width:400px;
+	flex-direction:column;
+	margin:20px;
+	border:0.5px solid lightgrey;
+}
+
+#netForm>input{
+	padding:5px 5px;
+	margin:20px 10px;
+	font-size:18px;
+	border:none;
+	outline:none;
+	border-bottom:0.5px solid lightgrey;
+}
+::placeholder{
+	color:lightgrey;
+}
+#netForm>input#netFormButton{
+	margin:50px 10px 20px 10px;
+	height:50px;
+	background:#A0A300;
+	color:#F6F3F5;
+	border:none;
+}
+#netForm>#netFormNameError,#netFormEmailError,#netFormPhoneError{
+	margin-top:-10px;
+	margin-left:20px;
+	font-size:14px;
+}
